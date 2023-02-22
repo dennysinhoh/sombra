@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--fotes do gogglefonts-->>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/49d236524c.js" crossorigin="anonymous"></script>
+    
+    <title>portifolio</title>
+    <style> 
+        body {  
+            margin-left: 15%;
+            margin-right: 15%;
+        } 
+        .container {    
+            display: grid;  
+            grid-auto-flow: column; 
+            grid-auto-columns: 1fr;        
+        }   
+        #header { 
+            font-family: 'Poppins', sans-serif;
+            font-style: normal; 
+            font-weight: 600;   
+            line-height: 42px;
+            font-size: 28px;    
+            line-height: 42px;
+            text-decoration-line: underline;    
+            margin-top: 20px;   
+            margin-bottom: 40px;
+            color: black ;
+        }   
+        #menu ul { 
+            list-style-type:none;  /*tirar a bolinha*/  
+            margin: 0;  
+            padding: 0;        
+        }   
+        #menu li {  
+            display: inline-block;  /*alinhar texto*/
+            margin-left: 20px; 
+            font-family: 'Poppins', sans-serif;
+            font-style: normal; 
+            font-weight: 600;   
+            line-height: 42px;
+            font-size: 16px;    
+            line-height: 24px;        
+        }
+        #menu { 
+            text-align: right;  
+            margin-top: 20px;
+        }   
+        #buttonCta {    
+            background-color: rgb(18, 53, 151);   
+            border-radius: 50px;
+            font-style: normal; 
+            font-weight: 600;   
+            line-height: 42px;
+            font-size: 16px;    
+            line-height: 24px;
+            text-align: center;
+            color: aliceblue;
+            padding: 10px 25px 10px 25px ;
+           
+        }   
+        a {    
+            color: black;
+            text-decoration: none;
+           
+        }
+        #headerCta {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal; 
+            font-weight: 600;   
+            line-height: 42px;
+            font-size: 16px;    
+            line-height: 24px;
+            margin-top: 30px ;
+            line-height: 20px; 
+            
+        }
+        #headeimg {  
+            margin-left: 10px;
+        }
+        #headeimg img {
+            width: 100%; /*tamanho da imagem*/
+        }
+        #headerCta h1 { 
+            font-family: 'Poppins', sans-serif;
+            font-style: normal; 
+            font-weight: bold;   
+            line-height: 82px;
+            font-size: 45px; 
+            line-height: 50px;
+          
+            
+        }
+        .headerlogo {   
+            text-align: center;
+           
+
+        }
+        #clients {  
+            margin-top: 40px;
+        }
+        #conheça_meus_serviços{ 
+            text-align: center;
+            margin-top: 20px;
+        }
+        #pontosPositivos {
+            text-align: left;
+            margin: 20px;
+        }
+        .pontosPositivos  {        
+            text-align: center;
+            
+        }#contactImg img {  
+            width: 100%;
+        }
+        #contactForm {   
+            margin-left:  70px;
+            text-align: center;
+        }
+        #contact {  
+            margin-top: 100px;
+            
+        }
+        #contactForm input {    
+            width: 70%;
+            border: 0;
+            line-height: 24px;
+            padding: 15px 25px 15px 25px;
+            background: rgb(240, 217, 217) ;
+
+        }
+        #contactForm button {   
+            border-radius: 50px ;
+            padding: 15px 25px 15px 25px ;
+            background: rgb(191, 191, 235);
+            border: 0;
+        }
+        #portifolioTitle {  
+            margin-top: 50px;
+        }
+        #portifolioImg { 
+            width: 100%;
+            text-align: center;
+
+        }
+   
+    </style>    
+</head>
+<body>
+   <div class="container">  
+    <div id="header">   
+           Portifolio        
+    </div>  
+    <div id="menu"> 
+        <ul>    
+            <li><a href="#conheça_meus_serviços">Meus Serviços</a></li>  
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="#portifolioImg">Portifolio</a></li>   
+        </ul>
+    </div>    
+   </div>
+   <div>    
+        <div class="container">         
+        <div id="headerCta">    
+            <h1>Ola meu nome    
+                <br>é maria    
+            </h1>
+            <p>sou programadora e queria apresentar meu     
+               <br>trabalho para você atraves deste portifolio     
+            </p>   
+            <a id="buttonCta" href="">Meus serviços</a>
+        </div>  
+        <div id="headeimg"> 
+            <img src="img/jovem-professora.webp">
+        </div>
+        </div>  
+        <div class="container"id="clients"> 
+            <div class="headerClientText">    
+                Alguns dos<br>  
+                meus clientes
+            </div>
+            <div class="headerlogo">    
+                <img src="img/knowledge_graph_logo.png"width="50">
+            </div>
+            <div class="headerlogo">    
+                <img src="img/musica.png"width="50">
+            </div>
+            <div class="headerlogo">    
+                <img src="img/slack_hash_256.png"width="50">
+            </div>
+        </div>
+        <div class="container"> 
+            <div id="conheça_meus_serviços">   
+                <h1><b>Conheça</b><br>
+                     Meus serviços
+                </h1>
+            </div>
+        </div>
+        <div>
+        <div class="container"> 
+            <div class="pontosPositivos">
+                <i class="fa-solid fa-magnifying-glass"></i><br>
+                consutoria
+                <h4>te ajudo organizar sua empresa</h4>
+            </div>
+            <div class="pontosPositivos">
+                <i class="fa-solid fa-envelope"></i><br>
+                Email e markintg
+                <h4>dennys_almeida_souza</h4>
+            </div>
+            <div class="pontosPositivos">
+                <i class="fa-solid fa-business-time"></i><br>
+                Criação de sites
+                <h4>Criar sites do zero</h4>
+            </div>
+        </div>
+        <div class="container" id="contact"> 
+            <div id="contactImg">
+                <img src="img/PostIncentivoAluno.jpeg">
+            </div>
+            <div id="contactForm">
+                <h2>Economize  seu tempo</h2>
+                <h3>Ganhe mais dinheiro</h3>
+                <p> 
+                    digite seu email entrarei em contato
+                </p>
+                <form action="https://formspree.io/f/mvonkjyw" method="post"><br><!--formspre site-->
+                <p><input type="text" placeholder="digite seu email" required="required"name="contact"></p>
+                <button type="submit">carregar</button> 
+                </form>           
+            </div>
+        </div>
+        <div class="container"> 
+            <div id="portifolioTitle">   
+                <h4>conheça meu portifolio</h4>
+                <h2>portifolio</h2>
+
+            </div>
+        </div>
+        <div class="container"> 
+            <div class="portifolioImg">    
+                <img src="img/images3.jfif"width="200">
+            </div>
+            <div class="portifolioImg">  
+                <img src="img/profe_aluno1.jpg"width="400">
+            </div>
+            <div class="portifolioImg">  
+                <img src="img/metodologias-ativas-aprendizagem-criativa-alunos-e-professor-conversam-em-sala-de-aula-getty-images333.jpg"width="200">
+            </div>
+        </div>
+
+
+</body>
+</html>
